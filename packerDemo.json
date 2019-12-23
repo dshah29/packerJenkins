@@ -63,7 +63,7 @@
       },
       {
         "type": "file",
-        "source": "${env.WORKSPACE}/startup_Scripts/Set-NonPersistentControls.ps1",
+        "source": "${workspace}/startup_Scripts/Set-NonPersistentControls.ps1",
         "destination": "C:/Set-NonPersistentControls.ps1"
       },
       {
