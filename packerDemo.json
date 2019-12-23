@@ -1,6 +1,7 @@
 {
   "variables": {
     "azure_client_id": "afa82da6-14bb-4a30-a5ba-38593ac7327e",
+    "azure_object_id": "cb70e8e6-c00f-45fd-8876-dc39a323e13e",
     "azure_client_secret": "10IKFZMKf2H1cq]_q+S+YkjvKrjispE=",
     "azure_tenant_id": "335836de-42ef-43a2-b145-348c2ee9ca5b",
     "azure_subscription_id": "31d92081-230a-4230-acb8-c49587f53c7f",
