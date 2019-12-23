@@ -63,7 +63,7 @@
       },
       {
         "type": "file",
-        "source": "/home/darshan1/startup_Scripts/Set-NonPersistentControls.ps1",
+        "source": "../startup_Scripts/Set-NonPersistentControls.ps1",
         "destination": "C:/Set-NonPersistentControls.ps1"
       },
       {
