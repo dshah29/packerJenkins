@@ -52,7 +52,7 @@
     },
     {
       "type": "file",
-      "source": "/home/darshan1/startup_Scripts/Set-NonPersistentControls.ps1",
+      "source": "/var/lib/jenkins/workspace/packer2/startUpScripts/Set-NonPersistentControl.ps1",
       "destination": "C:/Set-NonPersistentControls.ps1"
     },
     {
