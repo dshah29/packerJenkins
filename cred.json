@@ -4,7 +4,7 @@
     "azure_client_secret": "t+m/AvfkVVCfY-B6SsnlfcX2YODNj53=",
     "azure_tenant_id": "335836de-42ef-43a2-b145-348c2ee9ca5b",
     "azure_subscription_id": "e497d8d7-0b2c-4229-a381-0f89de3e840d",
-    "azure_custom_image_resource_group_name": "ctxccp-custom-image",
+    "azure_custom_image_resource_group_name": "ctxwsd-cc-custom-image",
     "azure_custom_image_name": "ctxccp-base-latest",
     "azure_location": "East US",
     "azure_cloud_environment_name": "Public",
