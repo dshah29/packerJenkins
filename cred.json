@@ -3,7 +3,7 @@
     "azure_client_id": "5daa7b6b-0145-4c94-84de-f7f13f81555f",
     "azure_client_secret": "t+m/AvfkVVCfY-B6SsnlfcX2YODNj53=",
     "azure_tenant_id": "335836de-42ef-43a2-b145-348c2ee9ca5b",
-    "azure_subscription_id": "e497d8d7-0b2c-4229-a381-0f89de3e840d",
+    "azure_subscription_id": "a309c3b8-2f7d-4342-ae40-ea2a09d5c67b",
     "azure_custom_image_resource_group_name": "ctxwsd-cc-custom-image",
     "azure_custom_image_name": "ctxccp-base-latest",
     "azure_location": "East US",
