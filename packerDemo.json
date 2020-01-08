@@ -32,18 +32,22 @@
   }],
   "provisioners": [
     {
+      "type":  "ansible",
+      "pause_before":"60s",
+      "extra_arguments": [
+        "--extra-vars", "ansible_shell_type=powershell ansible_shell_executable=None",
+        "--connection", "packer"
+     ],
+      "playbook_file": "${env.WORKSPACE}/ansible/playbook.yml"
+    },
+    {
       "type": "powershell",
       "inline": ["Set-ItemProperty 'HKLM:/Software/Microsoft/Windows/CurrentVersion/RunOnce' -Name '!SetControls' -Value 'powershell.exe C:/Set-NonPersistentControls.ps1'"]
     },
     {
       "type": "file",
-      "source": "/tmp/working/startUpScripts/Set-NonPersistentControl.ps1",
+      "source": "${env.WORKSPACE}/packer/startUpScripts/Set-NonPersistentControl.ps1",
       "destination": "C:/Set-NonPersistentControls.ps1"
-    },
-    {
-      "type": "file",
-      "source": "/tmp/working/startUpScripts/temp.ps1",
-      "destination": "C:/temp.ps1"
     },
     {
       "type": "powershell",
