@@ -41,6 +41,11 @@
       "destination": "C:/Set-NonPersistentControls.ps1"
     },
     {
+      "type": "file",
+      "source": "/tmp/working/startUpScripts/temp.ps1",
+      "destination": "C:/temp.ps1"
+    },
+    {
       "type": "powershell",
       "inline": [
         "echo '>>> Waiting for GA to start ...'",
