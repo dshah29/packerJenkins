@@ -5,7 +5,7 @@
     "azure_tenant_id": "335836de-42ef-43a2-b145-348c2ee9ca5b",
     "azure_subscription_id": "a309c3b8-2f7d-4342-ae40-ea2a09d5c67b",
     "azure_custom_image_resource_group_name": "ctxwsd-cc-custom-image",
-    "azure_custom_image_name": "ctxccp-base-latest",
+    "azure_custom_image_name": "ctxccp-base-latest-1.1",
     "azure_location": "East US",
     "azure_cloud_environment_name": "Public",
     "azure_os_type": "Windows",
