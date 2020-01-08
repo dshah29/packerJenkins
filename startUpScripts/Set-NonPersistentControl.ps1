@@ -18,3 +18,4 @@ foreach ($entry in $entries) {
     }
     Set-ItemProperty $path $key $value -Type $type
 }
+#asdasdasdads
