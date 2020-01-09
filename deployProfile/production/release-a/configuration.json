@@ -1,0 +1,9 @@
+{
+    "root": "ctxccp", 
+    "area": "custom-image",
+    "release": "release-a",
+    "type": "base",
+    "version": "0.1",
+    "location": "usgovvirginia",
+    "environment": "USGovernment"
+}
