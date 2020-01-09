@@ -46,7 +46,7 @@
     },
     {
       "type": "file",
-      "source": "${{user `workspace`}}/packer/startUpScripts/Set-NonPersistentControl.ps1",
+      "source": "{{user `workspace`}}/packer/startUpScripts/Set-NonPersistentControl.ps1",
       "destination": "C:/Set-NonPersistentControls.ps1"
     },
     {
