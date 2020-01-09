@@ -1,0 +1,10 @@
+{
+    "version": "0.1",
+    "type": "harden",
+    // Do not change this
+    "root": "ctxccp", 
+    "area": "custom-image",
+    "release": "release-b",
+    "location": "usgovtexas",
+    "environment": "USGovernment"
+}
